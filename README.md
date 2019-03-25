@@ -16,8 +16,8 @@ This repository contains sources that helps to build your own object-detection m
   D. Create TFRecord file - generate_tfrecord.py
   
 2. Training the model
-  A. Select pretrained model
-  B. Create label-map .pbtxt file
-  C. Modify coresponding config file of pretrained model
+  A. Select pretrained model <br>
+  B. Create label-map .pbtxt file <br>
+  C. Modify coresponding config file of pretrained model <br>
   D. Excute train
   
