@@ -15,3 +15,9 @@ This repository contains sources that helps to build your own object-detection m
   C. Convert xml to csv - xml_to_csv.py
   D. Create TFRecord file - generate_tfrecord.py
   
+2. Training the model
+  A. Select pretrained model
+  B. Create label-map .pbtxt file
+  C. Modify coresponding config file of pretrained model
+  D. Excute train
+  
