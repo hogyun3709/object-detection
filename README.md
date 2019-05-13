@@ -21,3 +21,14 @@ This repository contains sources that helps to build your own object-detection m
   C. Modify coresponding config file of pretrained model <br>
   D. Excute train
   
+
+## Step by Step instruction
+ - Clone tensorflow/model directroy from github
+
+1. Installation and compilation <br>
+ [Click here to see instructions](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md) <br>
+ 
+  A. Install dependencies - (tensorflow may not support cuda 10)<br>
+  B. Configure protobuf compilation <br>
+  C. Add Libraries to PYTHONPATH <br>
+
