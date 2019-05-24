@@ -31,4 +31,22 @@ This repository contains sources that helps to build your own object-detection m
   A. Install dependencies - (tensorflow may not support cuda 10)<br>
   B. Configure protobuf compilation <br>
   C. Add Libraries to PYTHONPATH <br>
+  
+2. Create your own dataset <br>
+
+  A. Get ready for dataset <br>
+    - There are several methods to prepare your own dataset: download images manually, from others researched data or etc. <br>
+    - Recommended: Use relevant web crawler: [AutoCrawler](https://github.com/YoongiKim/AutoCrawler)<br>
+    1. Download at least 200 images for each label. <br>
+    2. Split into train/test folders portion of 150 / 50 images. <br>
+    3. Use image annotation tool to create bounding boxes on downloaded images manually. <br>
+    4. For each saved image, check out a pair of .xml file and your image file. <br>
+    
+### To be continue...
+    
+    
+    
+
+  
+# Currently solving cuda 10 install issue due to tensorflow 1.13 dependency issue
 
