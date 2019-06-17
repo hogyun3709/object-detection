@@ -54,6 +54,10 @@ This repository contains sources that helps to build your own object-detection m
     - In the ipynb file line 50, the test images is selected in range of 1 - 6 of jpg files. 
     - For more test out result, you can add more images or use images of 'png' files along with the jpg files.
     - Along with this, you need to modify the file format or the range of images as well.
+
+### :fire: Test result
+![test-gif](https://github.com/hogyun3709/object-detection-fashion/blob/master/object-detection-test.gif)
+
 ***
 ### There will be series of dependency issues while trying to run the program. Happy to help you if you have issues.
 ***
