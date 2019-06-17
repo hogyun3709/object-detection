@@ -21,6 +21,9 @@ This repository contains sources that helps to build your own object-detection m
   C. Modify coresponding config file of pretrained model <br>
   D. Excute train
   
+3. Test the model
+  (Will be update) A. Test out with jupyter notebook which is given by tensorflow tutorial docs.
+  
 
 ## Step by Step instruction
  - Clone tensorflow/model directroy from github
@@ -42,11 +45,18 @@ This repository contains sources that helps to build your own object-detection m
     3. Use image annotation tool to create bounding boxes on downloaded images manually. <br>
     4. For each saved image, check out a pair of .xml file and your image file. <br>
     
-### To be continue...
-    
-    
-    
+***
+## Recently updated object-detection-model that identifies only check shirts. <br>
+### :fire: How to test check shirt detection model <br>
 
-  
-# Currently solving cuda 10 install issue due to tensorflow 1.13 dependency issue
+    1. Open up object_detection_tutorial.ipynb with command jupyter notebook 
+    2. Run the cell with run all command <br>
+    - In the ipynb file line 50, the test images is selected in range of 1 - 6 of jpg files. 
+    - For more test out result, you can add more images or use images of 'png' files along with the jpg files.
+    - Along with this, you need to modify the file format or the range of images as well.
+***
+### There will be series of dependency issues while trying to run the program. Happy to help you if you have issues.
+***
+## Generally, this repo aims to explain how to create the obj-detection model with your own data. <br>
+## Along with the document that create your own detection model, this repo will update with clothing detection model and how to use gan in future
 
