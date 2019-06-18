@@ -15,13 +15,13 @@ This repository contains sources that helps to build your own object-detection m
   C. Convert xml to csv - xml_to_csv.py
   D. Create TFRecord file - generate_tfrecord.py
   
-2. Training the model
+2. Training the model <br>
   A. Select pretrained model <br>
   B. Create label-map .pbtxt file <br>
   C. Modify coresponding config file of pretrained model <br>
   D. Excute train
   
-3. Test the model
+3. Test the model <br>
   (Will be update) A. Test out with jupyter notebook which is given by tensorflow tutorial docs.
   
 
@@ -34,6 +34,8 @@ This repository contains sources that helps to build your own object-detection m
   A. Install dependencies - (tensorflow may not support cuda 10)<br>
   B. Configure protobuf compilation <br>
   C. Add Libraries to PYTHONPATH <br>
+    - export PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/slim
+
   
 2. Create your own dataset <br>
 
@@ -59,8 +61,8 @@ This repository contains sources that helps to build your own object-detection m
 ![test-gif](https://github.com/hogyun3709/object-detection-fashion/blob/master/object-detection-test.gif)
 
 ***
-### There will be series of dependency issues while trying to run the program. Happy to help you if you have issues.
+#### There will be series of dependency issues while trying to run the program. Happy to help you if you have issues.
 ***
-## Generally, this repo aims to explain how to create the obj-detection model with your own data. <br>
-## Along with the document that create your own detection model, this repo will update with clothing detection model and how to use gan in future
+#### Generally, this repo aims to explain how to create the obj-detection model with your own data. <br>
+
 
